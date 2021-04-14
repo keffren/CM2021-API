@@ -1,0 +1,74 @@
+[
+    {
+        "id"                :   0,
+        "nombre"            :   "",
+        "proficiencias"     :   {
+
+            "Armaduras"     :   [],
+            "Armas"         :   [],
+            "Herramientas"  :   [],
+            "Salvaciones"   :   [],
+            "Habilidades"   :   []
+        },
+        "habilidad_esp"     :   {
+            "":[]
+        },
+        "equipo_inicial"    :   [],
+        "dinero_incial"     :   0,
+        "info_clase"        :   ""
+    },
+    {
+        "id"                :   1,
+        "nombre"            :   "Paladín",
+        "proficiencias"     :   {
+
+            "Armaduras"     :   ["Armadura de tela","Armadura de cuero ","Armadura de malla"],
+            "Armas"         :   ["Armas simples","Armas marciales"],
+            "Herramientas"  :   [],
+            "Salvaciones"   :   ["Carisma","Sabiduria"],
+            "Habilidades"   :   ["Atlético","Médico","Religioso"]
+        },
+        "habilidad_esp"     :   {
+            "Imposición de manos": [
+                "Tu toque bendito puede curar heridas.",
+                "Tienes una reserva de poder curativo que se repone cuando tomas un descanso prolongado.",
+                "Con esa reserva, puedes restaruar un total  de puntos de golpes igual al nivel del paladín x5."
+            ]
+        },
+        "equipo_inicial"    :   ["Maza de una mano","Escudo","Pack de sacerdote","Simbolo sagrado","Armadura pesada"],
+        "dinero_incial"     :   90,
+        "info_clase"        :   [
+            "Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura",
+            " y la sanación para poder sobrevivir a una lluvia de ataques. Ya sea con enormes escudos",
+            " o con aplastantes armas a dos manos, los paladines pueden aguantar zarpas y espadas de sus compañeros más débiles,",
+            " pero deben usar la magia sanadora con cuidado para asegurarse de que se mantienen en pie."
+        ]
+    },
+    {
+        "id"                :   2,
+        "nombre"            :   "Brujo",
+        "proficiencias"     :   {
+
+            "Armaduras"     :   ["Armadura de tela"],
+            "Armas"         :   ["Armas simples"],
+            "Herramientas"  :   [],
+            "Salvaciones"   :   ["Sabiduría","Carisma"],
+            "Habilidades"   :   ["Intimidador","Investigador","Maldiciones"]
+        },
+        "habilidad_esp"     :   {
+            "Hechizos":[
+                "Dispones de dos hechizos de nivel 1:\n",
+                "  -Invocar diablillo.\n",
+                "  -Descarga de las sombras."
+            ]
+        },
+        "equipo_inicial"    :   ["Baston","Paquete de erudito","Enfoque maldito","Armadura de tela"],
+        "dinero_incial"     :   110,
+        "info_clase"        :   [
+            "Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades",
+            " y magia oscura. Mientras que sus mascotas les protegen y mejoran, los brujos golpean a los enemigos desde la distancia.",
+            " Ya que son taumaturgos físicamente débiles desprovistos de una poderosa armadura, los brujos astutos dejan que sus esbirros",
+            " se lleven el grueso de los ataques enemigos para salvar su propio pellejo."
+        ]
+    }
+]
