@@ -16,7 +16,12 @@ app.use(express.json());
 //Static navigation
 app.use("/", express.static(path.join(__dirname + "/public"))); 
 
-//Import API
+//Import API: Razas
+
+//Import API: CLases
+var clasesAPI = require("./clasesAPI")
+clasesAPI.httpCRUD(app);
+
 
 
 //Server running
