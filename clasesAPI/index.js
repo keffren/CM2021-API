@@ -11,7 +11,9 @@ module.exports.httpCRUD = (app) => {
 
     //GET: Colección Clases
     app.get(CLASES_API_PATH, (req,res) => {
-        res.status(200).send(JSON.stringify(ls_clases,null,2));
+        //res.status(200).send(JSON.stringify(ls_clases,null,2));
+        res.status(200).json(ls_clases);
+
     });
 
     //GET: clase
