@@ -19,7 +19,7 @@
     },
     {
         "id"                :   1,
-        "nombre"            :   "Paladín",
+        "nombre"            :   "Paladin",
         "proficiencias"     :   {
 
             "Armaduras"     :   ["Armadura de tela","Armadura de cuero ","Armadura de malla"],

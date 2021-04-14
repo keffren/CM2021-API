@@ -29,9 +29,10 @@ module.exports.httpCRUD = (app) => {
                 claseJSON = Object.assign({},ls_clases[i]);
             }
         }
-        if(claseJSON.length > 0){
 
-            res.status(200).send(JSON.stringify(claseJSON,null,2));
+        if(Object.keys(claseJSON).length > 0){
+
+            res.status(200).json(claseJSON);
         }else{
             res
             .status(404)
