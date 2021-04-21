@@ -1,8 +1,6 @@
 const CLASES_API_PATH = "/api/v1/clases";
 
 //Cargar clases
-//const clasesJSON = require('./clases.json');
-//var ls_clases = Object.assign([],clasesJSON);
 
 module.exports.loadDB = (app, db) => {
     let initData = require ('./clases');
