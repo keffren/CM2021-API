@@ -51,13 +51,13 @@ module.exports.httpCRUD = (app,db) => {
             }
         })
         */
-        db.find({}).sort({id : 1}).exec((req,res) => {
+        db.find({}).sort({id : 1}).exec((err,resources) => {
             if(err){
                 console.error('--ClasesAPi:\n  ERROR : accessing DB in GET(../hostelries)');
                 res.sendStatus(500);
             }else{
                 //res.send(JSON.stringify(resources,null,2));
-                var classToSend = clases.map( (c) =>{
+                var classToSend = resources.map( (c) =>{
                     delete c._id;   //   ==   delete r["_id"];
                     return c;
                 });
