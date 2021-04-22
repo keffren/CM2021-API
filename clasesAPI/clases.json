@@ -15,7 +15,7 @@
         },
         "equipo_inicial"    :   [],
         "dinero_incial"     :   0,
-        "info_clase"        :   ""
+        "info_clase"        :   []
     },
     {
         "id"                :   1,
