@@ -11,7 +11,8 @@
             "Habilidades"   :   []
         },
         "habilidad_esp"     :   {
-            "":[]
+            "nombre_habilidad": "",
+            "descripcion_hab" : []
         },
         "equipo_inicial"    :   [],
         "dinero_inicial"     :   0,
@@ -29,7 +30,8 @@
             "Habilidades"   :   ["Atlético","Médico","Religioso"]
         },
         "habilidad_esp"     :   {
-            "Imposición de manos": [
+            "nombre_habilidad": "Imposición de manos",
+            "descripcion_hab" : [
                 "Tu toque bendito puede curar heridas.",
                 "Tienes una reserva de poder curativo que se repone cuando tomas un descanso prolongado.",
                 "Con esa reserva, puedes restaruar un total  de puntos de golpes igual al nivel del paladín x5."
@@ -56,14 +58,15 @@
             "Habilidades"   :   ["Intimidador","Investigador","Maldiciones"]
         },
         "habilidad_esp"     :   {
-            "Hechizos":[
+            "nombre_habilidad": "Hechizos",
+            "descripcion_hab" : [
                 "Dispones de dos hechizos de nivel 1:\n",
                 "  -Invocar diablillo.\n",
                 "  -Descarga de las sombras."
             ]
         },
         "equipo_inicial"    :   ["Baston","Paquete de erudito","Enfoque maldito","Armadura de tela"],
-        "dinero_inicial"     :   110,
+        "dinero_inicial"    :   110,
         "info_clase"        :   [
             "Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades",
             " y magia oscura. Mientras que sus mascotas les protegen y mejoran, los brujos golpean a los enemigos desde la distancia.",
