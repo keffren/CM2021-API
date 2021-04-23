@@ -14,7 +14,7 @@
             "":[]
         },
         "equipo_inicial"    :   [],
-        "dinero_incial"     :   0,
+        "dinero_inicial"     :   0,
         "info_clase"        :   []
     },
     {
@@ -36,7 +36,7 @@
             ]
         },
         "equipo_inicial"    :   ["Maza de una mano","Escudo","Pack de sacerdote","Simbolo sagrado","Armadura pesada"],
-        "dinero_incial"     :   90,
+        "dinero_inicial"     :   90,
         "info_clase"        :   [
             "Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura",
             " y la sanación para poder sobrevivir a una lluvia de ataques. Ya sea con enormes escudos",
@@ -63,7 +63,7 @@
             ]
         },
         "equipo_inicial"    :   ["Baston","Paquete de erudito","Enfoque maldito","Armadura de tela"],
-        "dinero_incial"     :   110,
+        "dinero_inicial"     :   110,
         "info_clase"        :   [
             "Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades",
             " y magia oscura. Mientras que sus mascotas les protegen y mejoran, los brujos golpean a los enemigos desde la distancia.",

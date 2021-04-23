@@ -206,7 +206,8 @@ module.exports.httpCRUD = (app,db) => {
                     traveler_numer: req.body.traveler_numer}
                 */
                 $set: {proficiencias : req.body.proficiencias, habilidad_esp : req.body.habilidad_esp,
-                        equipo_inicial : req.body.equipo_inicial, info_clase : req.body.info_clase}
+                        equipo_inicial : req.body.equipo_inicial, dinero_inicial: req.body.dinero_inicial,
+                        info_clase : req.body.info_clase}
             },
             {},
             (err, numReplaced) => {
