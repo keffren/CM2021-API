@@ -1,0 +1,102 @@
+[
+    {
+        "id"                :   0,
+        "nombre"            :   "",
+        "tamaño"            :   "",
+        "velocidad"         :   "",
+        "caracteristica_1"  :   "",
+        "valor_caract_1"    :   "",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    },
+    {
+        "id"                :   1,
+        "nombre"            :   "Dragonborn",
+        "tamaño"            :   "Medio",
+        "velocidad"         :   "30",
+        "caracteristica_1"  :   "Carisma",
+        "valor_caract_1"    :   "1",
+        "caracteristica_2"  :   "Fuerza",
+        "valor_caract_2"    :   "2"
+    },
+    {
+        "id"                :   2,
+        "nombre"            :   "Enano",
+        "tamaño"            :   "Medio",
+        "velocidad"         :   "25",
+        "caracteristica_1"  :   "Constitucion",
+        "valor_caract_1"    :   "2",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    },
+    {
+        "id"                :   3,
+        "nombre"            :   "Elfo",
+        "tamaño"            :   "Medio",
+        "velocidad"         :   "30",
+        "caracteristica_1"  :   "Destreza",
+        "valor_caract_1"    :   "2",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    },
+    {
+        "id"                :   4,
+        "nombre"            :   "Gnomo",
+        "tamaño"            :   "Pequeño",
+        "velocidad"         :   "25",
+        "caracteristica_1"  :   "Inteligencia",
+        "valor_caract_1"    :   "2",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    },
+    {
+        "id"                :   5,
+        "nombre"            :   "Semi elfo",
+        "tamaño"            :   "Medio",
+        "velocidad"         :   "30",
+        "caracteristica_1"  :   "Carisma",
+        "valor_caract_1"    :   "2",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    },
+    {
+        "id"                :   6,
+        "nombre"            :   "Semi orco",
+        "tamaño"            :   "Medio",
+        "velocidad"         :   "30",
+        "caracteristica_1"  :   "Constitucion",
+        "valor_caract_1"    :   "1",
+        "caracteristica_2"  :   "Fuerza",
+        "valor_caract_2"    :   "2"
+    },
+    {
+        "id"                :   7,
+        "nombre"            :   "Halfling",
+        "tamaño"            :   "Pequeño",
+        "velocidad"         :   "30",
+        "caracteristica_1"  :   "Destreza",
+        "valor_caract_1"    :   "2",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    },
+    {
+        "id"                :   8,
+        "nombre"            :   "Humano",
+        "tamaño"            :   "Medio",
+        "velocidad"         :   "30",
+        "caracteristica_1"  :   "",
+        "valor_caract_1"    :   "",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    },
+    {
+        "id"                :   9,
+        "nombre"            :   "Tiefling ",
+        "tamaño"            :   "Pequeño",
+        "velocidad"         :   "30",
+        "caracteristica_1"  :   "",
+        "valor_caract_1"    :   "",
+        "caracteristica_2"  :   "",
+        "valor_caract_2"    :   ""
+    }
+]

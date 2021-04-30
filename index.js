@@ -8,8 +8,6 @@ var Datastore = require('nedb');
 const PORT = (process.env.PORT || 1607);
 
 //Start of the application
-var db = new Datastore();
-
 var app = express();
 app.use(express.json());
 
@@ -18,11 +16,16 @@ app.use(express.json());
 app.use("/", express.static(path.join(__dirname + "/public"))); 
 
 //Import API: Razas
+var razasAPI = require('./razasAPI');
+var razasDB = new Datastore();
+razasAPI.loadDB(app,razasDB);
+razasAPI.httpCRUD(app,razasDB);
 
 //Import API: CLases
 var clasesAPI = require("./clasesAPI");
-clasesAPI.loadDB(app,db);
-clasesAPI.httpCRUD(app,db);
+var clasesDB = new Datastore();
+clasesAPI.loadDB(app,clasesDB);
+clasesAPI.httpCRUD(app,clasesDB);
 
 
 
