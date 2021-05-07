@@ -37,7 +37,7 @@
                 "Con esa reserva, puedes restaruar un total  de puntos de golpes igual al nivel del paladín x5."
             ]
         },
-        "equipo_inicial"    :   ["Maza de una mano","Escudo","Pack de sacerdote","Simbolo sagrado","Armadura pesada"],
+        "equipo_inicial"    :   ["Maza de una mano.","Escudo.","Pack de sacerdote.","Simbolo sagrado.","Armadura pesada"],
         "dinero_inicial"     :   90,
         "info_clase"        :   [
             "Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura",
@@ -65,7 +65,7 @@
                 "  -Descarga de las sombras."
             ]
         },
-        "equipo_inicial"    :   ["Baston","Paquete de erudito","Enfoque maldito","Armadura de tela"],
+        "equipo_inicial"    :   ["Baston.","Paquete de erudito.","Enfoque maldito.","Armadura de tela."],
         "dinero_inicial"    :   110,
         "info_clase"        :   [
             "Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades",
