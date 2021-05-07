@@ -10,7 +10,7 @@ const PORT = (process.env.PORT || 1607);
 //Inicializar DB antes de arrancar app
 var razasDB = new Datastore();
 
-    let initRazasData = require("./clasesAPI/clases");
+    let initRazasData = require("./razasAPI/razas");
     razasDB.insert(initRazasData, (err, dataAdded) => {
         if(err){
             console.error('--RazasAPI:\n  ERROR : the race hasn´t inserted into DataBase!');
