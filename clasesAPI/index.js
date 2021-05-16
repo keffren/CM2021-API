@@ -88,7 +88,7 @@ module.exports.httpCRUD = (app,db) => {
                                 
                                 || Object.keys(newResource).length != 7){
                         */
-                        if(Object.keys(newResource).length != 7){
+                        if(Object.keys(newResource).length != 8){
 
                                     console.error(`--ClasesAPI:\n  Post fail -> [400]`);
                                     res
@@ -207,7 +207,7 @@ module.exports.httpCRUD = (app,db) => {
                 */
                 $set: {proficiencias : req.body.proficiencias, habilidad_esp : req.body.habilidad_esp,
                         equipo_inicial : req.body.equipo_inicial, dinero_inicial: req.body.dinero_inicial,
-                        info_clase : req.body.info_clase}
+                        info_clase : req.body.info_clase, url_avatar : req.body.url_avatar}
             },
             {},
             (err, numReplaced) => {
@@ -220,7 +220,7 @@ module.exports.httpCRUD = (app,db) => {
                         .status(404)
                         .json({ message: "The resource you are looking for does not exist "});
 
-                    }else if(Object.keys(req.body).length != 7){
+                    }else if(Object.keys(req.body).length != 8){
 
                                     console.error(`--ClasesAPI:\n  Put fail -> [400]`);
                                     res

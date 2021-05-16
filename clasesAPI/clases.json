@@ -15,8 +15,9 @@
             "descripcion_hab" : []
         },
         "equipo_inicial"    :   [],
-        "dinero_inicial"     :   0,
-        "info_clase"        :   []
+        "dinero_inicial"    :   0,
+        "info_clase"        :   [],
+        "url_avatar"        :   ""
     },
     {
         "id"                :   1,
@@ -44,7 +45,8 @@
             " y la sanación para poder sobrevivir a una lluvia de ataques. Ya sea con enormes escudos",
             " o con aplastantes armas a dos manos, los paladines pueden aguantar zarpas y espadas de sus compañeros más débiles,",
             " pero deben usar la magia sanadora con cuidado para asegurarse de que se mantienen en pie."
-        ]
+        ],
+        "url_avatar"        :   "https://wow.zamimg.com/uploads/screenshots/normal/495418-palad%C3%ADn.jpg"
     },
     {
         "id"                :   2,
@@ -72,6 +74,7 @@
             " y magia oscura. Mientras que sus mascotas les protegen y mejoran, los brujos golpean a los enemigos desde la distancia.",
             " Ya que son taumaturgos físicamente débiles desprovistos de una poderosa armadura, los brujos astutos dejan que sus esbirros",
             " se lleven el grueso de los ataques enemigos para salvar su propio pellejo."
-        ]
+        ],
+        "url_avatar"        :   "https://wow.zamimg.com/uploads/screenshots/normal/364280-brujo.jpg"
     }
 ]
