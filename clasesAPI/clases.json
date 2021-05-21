@@ -14,6 +14,7 @@
             "nombre_habilidad": "",
             "descripcion_hab" : []
         },
+        "hechizos"          : [],
         "equipo_inicial"    :   [],
         "dinero_inicial"    :   0,
         "info_clase"        :   [],
@@ -21,30 +22,32 @@
     },
     {
         "id"                :   1,
-        "nombre"            :   "Paladin",
+        "nombre"            :   "Paladín",
         "proficiencias"     :   {
 
-            "Armaduras"     :   ["Armadura de tela","Armadura de cuero ","Armadura de malla"],
+            "Armaduras"     :   ["Armadura ligera","Armadura media","Armadura pesada"],
             "Armas"         :   ["Armas simples","Armas marciales"],
             "Herramientas"  :   [],
             "Salvaciones"   :   ["Carisma","Sabiduria"],
-            "Habilidades"   :   ["Atlético","Médico","Religioso"]
+            "Habilidades"   :   ["Atletismo","Intimidar","Medicina","Perspicacia","Persuasión","Religión"]
         },
         "habilidad_esp"     :   {
             "nombre_habilidad": "Imposición de manos",
             "descripcion_hab" : [
-                "Tu toque bendito puede curar heridas.",
-                "Tienes una reserva de poder curativo que se repone cuando tomas un descanso prolongado.",
-                "Con esa reserva, puedes restaruar un total  de puntos de golpes igual al nivel del paladín x5."
+                    "Tu toque bendito puede curar heridas. ",
+                    "Tienes una reserva de poder curativo que se repone cuando tomas un descanso prolongado. ",
+                    "Con esa reserva, puedes restaruar un total  de puntos de golpes igual al nivel del paladín x5."
             ]
         },
-        "equipo_inicial"    :   ["Maza de una mano.","Escudo.","Pack de sacerdote.","Simbolo sagrado.","Armadura pesada"],
+        "hechizos"          : [],
+        "equipo_inicial"    :   ["Arma marcial","Cinco Jabalinas","Equipo de explorador","Cota de mallas"],
         "dinero_inicial"     :   90,
         "info_clase"        :   [
-            "Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura",
-            " y la sanación para poder sobrevivir a una lluvia de ataques. Ya sea con enormes escudos",
-            " o con aplastantes armas a dos manos, los paladines pueden aguantar zarpas y espadas de sus compañeros más débiles,",
-            " pero deben usar la magia sanadora con cuidado para asegurarse de que se mantienen en pie."
+                    "Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura",
+                    " y la sanación para poder sobrevivir a una lluvia de ataques. ",
+                    "Ya sea con enormes escudos",
+                    " o con aplastantes armas a dos manos, los paladines pueden aguantar zarpas y espadas de sus compañeros más débiles,",
+                    " pero deben usar la magia sanadora con cuidado para asegurarse de que se mantienen en pie."
         ],
         "url_avatar"        :   "https://wow.zamimg.com/uploads/screenshots/normal/495418-palad%C3%ADn.jpg"
     },
@@ -53,28 +56,83 @@
         "nombre"            :   "Brujo",
         "proficiencias"     :   {
 
-            "Armaduras"     :   ["Armadura de tela"],
+            "Armaduras"     :   ["Armadura ligera"],
             "Armas"         :   ["Armas simples"],
             "Herramientas"  :   [],
             "Salvaciones"   :   ["Sabiduría","Carisma"],
-            "Habilidades"   :   ["Intimidador","Investigador","Maldiciones"]
+            "Habilidades"   :   ["Arcana","Engañar","Historia","Intimidar","Investigación","Naturaleza","Religión"]
         },
         "habilidad_esp"     :   {
-            "nombre_habilidad": "Hechizos",
-            "descripcion_hab" : [
-                "Dispones de dos hechizos de nivel 1:\n",
-                "  -Invocar diablillo.\n",
-                "  -Descarga de las sombras."
-            ]
+            "nombre_habilidad": "",
+            "descripcion_hab" : []
         },
-        "equipo_inicial"    :   ["Baston.","Paquete de erudito.","Enfoque maldito.","Armadura de tela."],
+        "hechizos"          :   ["Hechizo_1","Hechizo_2","Hechizo_3","Hechizo_4"],
+        "equipo_inicial"    :   ["Ballesta ligera","x20 virotes","Foco Arcano","Equipo de erudito","Armadura de cuero"],
         "dinero_inicial"    :   110,
         "info_clase"        :   [
-            "Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades",
-            " y magia oscura. Mientras que sus mascotas les protegen y mejoran, los brujos golpean a los enemigos desde la distancia.",
-            " Ya que son taumaturgos físicamente débiles desprovistos de una poderosa armadura, los brujos astutos dejan que sus esbirros",
-            " se lleven el grueso de los ataques enemigos para salvar su propio pellejo."
+                    "Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades",
+                    " y magia oscura. Mientras que sus mascotas les protegen y mejoran, los brujos golpean a los enemigos desde la distancia. ",
+                    " Ya que son taumaturgos físicamente débiles desprovistos de una poderosa armadura, los brujos astutos dejan que sus esbirros",
+                    " se lleven el grueso de los ataques enemigos para salvar su propio pellejo."
         ],
         "url_avatar"        :   "https://wow.zamimg.com/uploads/screenshots/normal/364280-brujo.jpg"
+    },
+    {
+        "id"                :   3,
+        "nombre"            :   "Clérigo",
+        "proficiencias"     :   {
+
+            "Armaduras"     :   ["Armadura ligera","Armadura media","Escudos"],
+            "Armas"         :   ["Armas simples"],
+            "Herramientas"  :   [],
+            "Salvaciones"   :   ["Sabiduría","Carisma"],
+            "Habilidades"   :   ["Historia","Medicina","Perspicacia","Persuasión","Religión"]
+        },
+        "habilidad_esp"     :   {
+            "nombre_habilidad": "",
+            "descripcion_hab" : []
+        },
+        "hechizos"          :   ["Hechizo_1","Hechizo_2","Hechizo_3","Hechizo_4"],
+        "equipo_inicial"    :   ["Una maza","Cota de escamas","Ballesta ligera","x20 virotes","Eequipo de sacerdote","Escudo","Simbolo Sagrado"],
+        "dinero_inicial"    :   110,
+        "info_clase"        :   [
+                    "Los clérigos son intermediarios entre el mundo mortal y los distantes planos divinos. ", 
+                    "Tan diferentes entre ellos como los dioses a los que sirven, los clérigos se esfuerzan por personificar las obras de sus deidades. ",
+                    "No son sacerdotes ordinarios, un clérigo se encuentra imbuido de magia divina."
+        ],
+        "url_avatar"        :   "https://img2.freepng.es/20180811/ku/kisspng-crusades-middle-ages-assassin-s-creed-brotherhood-renders-assassin-amp-apos-s-creed-imgenes-t-5b6f30770a1991.8506621215340135590414.jpg"
+    },
+    {
+        "id"                :   4,
+        "nombre"            :   "Pícaro",
+        "proficiencias"     :   {
+
+            "Armaduras"     :   ["Armadura ligera"],
+            "Armas"         :   ["Armas simples","Ballesta","Arco","Estoques"],
+            "Herramientas"  :   ["Herramienta de ladron"],
+            "Salvaciones"   :   ["Destreza","Inteligencia"],
+            "Habilidades"   :   ["Acrobacias","Atletismo","Engañar","Intepretación","Intimidar","Sigilo","Perspicacia"]
+        },
+        "habilidad_esp"     :   {
+            "nombre_habilidad": "Ataque furtivo",
+            "descripcion_hab" : [
+                    "Una vez por turno, puedes infligir daño adicional a una criatura a la que impactes con un ataque si tienes ventaja en la tirada de ataque.",
+                    " El ataque debe usar un arma sutil o a distancia. ",
+                    "Este rasgo funciona aunque no tengas ventaja en la tirada ",
+                    "de ataque si otro enemigo del objetivo no incapacitado está a menos de 5 pies de él",
+                    "y si tú no tienes desventaja en la tirada de ataque."
+            ]
+        },
+        "hechizos"          : [],
+        "equipo_inicial"    :   ["Estoque","Arco pequeño","Carcag","x20 flechas","Equipo de ladron","Armadura de cuero","x2 dagas","Herramienta de ladron"],
+        "dinero_inicial"    :   110,
+        "info_clase"        :   [
+                    "Los pícaros a menudo inician sus batallas entre las sombras,",
+                    " comenzando con sanguinarios golpes cuerpo a cuerpo. ",
+                    "En batallas largas, usan ataques sucesivos, cuidadosamente seleccionados para preparar al enemigo para el golpe final. ",
+                    "Los pícaros deben tener especial cuidado al seleccionar a sus objetivos para no malgastar sus ataques de combo ",
+                    "y deben saber cuándo esconderse o huir si la batalla se vuelve contra ellos."
+        ],
+        "url_avatar"        :   "https://wow.zamimg.com/uploads/screenshots/normal/177061-rogue-human-rogue-by-glenn-rane.jpg"
     }
 ]
