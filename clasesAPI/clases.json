@@ -66,7 +66,7 @@
             "nombre_habilidad": "",
             "descripcion_hab" : []
         },
-        "hechizos"          :   ["Hechizo_1","Hechizo_2","Hechizo_3","Hechizo_4"],
+        "hechizos"          :   ["Descarga Sobrenatural","Mano de mago","Represnsión infernal","Maleficio"],
         "equipo_inicial"    :   ["Ballesta ligera","x20 virotes","Foco Arcano","Equipo de erudito","Armadura de cuero"],
         "dinero_inicial"    :   110,
         "info_clase"        :   [
@@ -92,7 +92,7 @@
             "nombre_habilidad": "",
             "descripcion_hab" : []
         },
-        "hechizos"          :   ["Hechizo_1","Hechizo_2","Hechizo_3","Hechizo_4"],
+        "hechizos"          :   ["Reparar","Guía","Luz","Curar heridas","Santuario"],
         "equipo_inicial"    :   ["Una maza","Cota de escamas","Ballesta ligera","x20 virotes","Eequipo de sacerdote","Escudo","Simbolo Sagrado"],
         "dinero_inicial"    :   110,
         "info_clase"        :   [
