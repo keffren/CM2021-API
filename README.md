@@ -1,4 +1,4 @@
-Desarrollo de una API RES con el fin de cargar datos para la app android CM2021
+Desarrollo de una API REST con el fin de cargar datos para la app android CM2021
 
 Recurso: Clases 
     Get a la colección clases:
